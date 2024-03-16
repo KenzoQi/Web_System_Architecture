@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(0, 123, 255), rgb(37, 231, 225));
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0; 
+}
+/*Designs the login page*/
+.login-container {
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(58, 56, 56);
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+ 
+}
+
+.login-form input {
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(24, 160, 233);
+}
+
+.login-form button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(50, 200, 72);
+    border-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.login-form label {
+    margin-top: 90;
+}
+
+/*designs the body of the page*/
+.design {
+    display: flex;
+    background-color: rgb(31, 21, 164);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/*Designs the header*/
+.head {
+    margin-left: 250px; 
+    font-size: 40px; 
+    color: rgb(30, 28, 28); 
+    padding: 20px; 
+    background-color: rgb(225, 213, 143); 
+    width: calc(100% - 250px); 
+    position: fixed; 
+    top: 0;
+    z-index: 1; 
+    text-align: center;
+}
+/*Designs the body of dashboard*/
+.design {
+    display: flex;
+}
+/*Designs the sidebar*/
+.sidebar {
+    height: 100vh; 
+    width: 250px;
+    background-image: linear-gradient(rgb(8, 12, 137),rgb(20, 161, 208));
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+    font-size: 18px; 
+}
+
+.sidebar a:hover {
+    background-color: rgb(33, 33, 196);
+    margin-left: 10px;
+}
+
+/*Positions the content or the text*/
+.content {
+    padding: 20px;
+    position: absolute;
+    top: 30%; 
+    left: 58%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.content h1 {
+    margin-top: 0; 
+    color: rgb(58, 57, 57);
+}
+
+.content p {
+    color: rgb(58, 57, 57);
+}
+
+/*Designs The Button*/
+.Logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Logout button {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(200, 50, 50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Logout button:hover {
+    background-color: rgb(184, 18, 18);
+}
+/*Designs the footer*/
+.footer{
+    background-image: linear-gradient(rgb(20, 161, 208),rgb(8, 12, 137));
+    width: 100%;
+    position: fixed; 
+    margin-top: 860px;
+    margin-right: 50;
+}
+.footer p{
+
+    font-size: 20px; 
+    color: white; 
+    padding: 20px; 
+    padding-left: 50%;
+
+}
